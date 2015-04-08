@@ -15,7 +15,8 @@ __TL;DR__ 針對國家在地化用 ccTLDs；針對語言在地化 Subdomain with
         - 貴，不容易買到所有網域
         - cookies, localStorage 不能共用，必須重新驗證 user
         - 如果網站是針對語言做區隔，而不是國家，這不是好選項。比如搜尋引擎可能會認為 .tw 的網站對美國使用者不重要，即使他是台灣人
--Subdomain with gTLDs
+        
+- Subdomain with gTLDs
     - eg: de.site.com, fr.site.com
     - 優點
         - Google 完全資源
