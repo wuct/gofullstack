@@ -15,7 +15,7 @@ __TL;DR__ 針對國家在地化用 ccTLDs；針對語言在地化 Subdomain with
         - 貴，不容易買到所有網域
         - cookies, localStorage 不能共用，必須重新驗證 user
         - 如果網站是針對語言做區隔，而不是國家，這不是好選項。比如搜尋引擎可能會認為 .tw 的網站對美國使用者不重要，即使他是台灣人
-        
+
 - Subdomain with gTLDs
     - eg: de.site.com, fr.site.com
     - 優點
@@ -90,11 +90,11 @@ __不要__猜測使用者的語言並產生不同的頁面給 user。應遵照 U
 原因：
 1. 使用者可能使用別人的電腦（ex: 台灣人用美國朋友電腦）
 2. 使用者可能不在自己的國家（ex: 台灣人去美國）
-3. geo-ip 不一定 10% 正確
+3. geo-ip 不一定 100% 正確
 4. 使用者可能用 VPN
 5. __Google 不建議__
 
-正確的使用時機是在使用者進入網站後，假如使用者瀏覽的網站跟我們猜測他的語言不符合，跳出提告知使用者可以前往另外一個可能符合他語言的網站。
+正確的使用時機是在使用者進入網站後，假如使用者瀏覽的網站跟我們猜測他的語言不符合，提醒使用者可以前往符合他語言的網站。
 
 ## 參考資料
  - [Google Webmaster: working with multilingual websites](http://googlewebmastercentral.blogspot.tw/2010/03/working-with-multilingual-websites.html)
