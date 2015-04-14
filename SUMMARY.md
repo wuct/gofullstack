@@ -11,6 +11,7 @@
 * [CDN](cdn/README.md)
    * [CloudFront](cdn/cloudfront.md)
 * [Deploy](deploy/README.md)
+   * [Deploy SOP](deploy/deploy_sop.md)
    * [AWS Elastic Beanstalk](deploy/aws_elastic_beanstalk.md)
 * [Dev Tool](dev_tool/README.md)
    * [Pre-Commit Hook](dev_tool/pre-commit_hook.md)
