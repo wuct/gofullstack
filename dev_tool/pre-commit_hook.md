@@ -46,6 +46,11 @@ pre-commit 預設會在每次 `git commit` 前都先跑 `npm test`，如果 `exi
 ## 結果
 我們的 code 愈來愈漂亮。
 
+## 參考資料
+- [http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks]()
+- [https://www.npmjs.com/package/pre-commit]()
+
+
 
 
 
