@@ -17,21 +17,5 @@ Enviroment 部署在 AWS 資源上的某個 Application Version。一個 Envirom
 ### Configuration Template
 在開啟新 Enviroment，可以先選擇 config 模板。config 模板只能透過 eb cli 或是 api 建立與更新。
 
-## 設計架構需注意
-
-### Scalability
-
-### Security
-
-### Persistent Storage
-
-### Fault Tolerance
-
-### Content Delivery
-
-### Software Updates and Patching
-
-### Conncectivity
-
 
 
