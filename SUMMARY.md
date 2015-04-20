@@ -16,6 +16,6 @@
    * [Deploy to AWS Elastic Beanstalk](deploy/deploy_to_aws_elastic_beanstalk.md)
 * [Dev Tool](dev_tool/README.md)
    * [Pre-Commit Hook](dev_tool/pre-commit_hook.md)
-   * [Sublime Text Setting](dev_tool/sublime_setting.md)
+   * [Sublime Text 3 Setting for React](dev_tool/sublime_setting.md)
 * [Continuous Integration](continuous_integration/README.md)
 

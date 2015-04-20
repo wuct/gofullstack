@@ -1,4 +1,4 @@
-# Sublime 環境設定
+# Sublime 開發 React 環境設定
 
 ## 版本
 Sublime Text 3
