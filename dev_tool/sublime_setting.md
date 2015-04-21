@@ -18,8 +18,20 @@ Sublime Text 3
 6. Tell Sublime to use `JavaScript (Babel)` syntax for all `.js` and `.jsx` files.
 7. Open SublimeLinter > Setting - User, add the following line into `syntax_map`
 	```
-	SublimeLinter > Setting - User
+	"syntax_map" {
+	    "javascript (babel)": "javascript"
+	}
 	```
+Also add the path to the node bin in `paths` if your sublime can not find it.
+```
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/path/to/your/node/bin"
+        ],
+        "windows": []
+    }
+```
 
 babel-eslint still have some bugs:
 
@@ -112,3 +124,4 @@ babel-eslint still have some bugs:
 	- you can use the command `which jsxhint` in terminal to find the `path`
 
 6. Restart your Sublime Text and enjoy!
+
