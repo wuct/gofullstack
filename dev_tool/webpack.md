@@ -10,11 +10,13 @@
 1. try `webpack ./entry.js ./bundle.js` in your terminal.
 2. see `webpack.config.js`, then try `webpack` in your terminal.
 
+
 # 2. Babel Loader
 
 We use `babel-loader` to compile ES6 and .jsx files to ES5 files.
 
 See `webpack.config.js`, then try `webpack` in your terminal.
+
 
 # 3. webpack-dev-server
 
@@ -48,6 +50,7 @@ Allow instantaneous live refresh without losing state while editing React compon
 ## 參考資料
 - [http://webpack.github.io/docs/webpack-dev-server.html]()
 
+
 # 4. Webpack with Node
 We combine a webpack-dev-server with a node server.
 
@@ -56,6 +59,7 @@ The node server provide the `index.html` on port `3000`, while the webpack-dev-s
 See `package.json` to know how we set this up, then try `npm run watch` in your terminal. Finally, go to `http://localhost:3000` to see the result.
 
 Both servers will reload lively when you edit a file.
+
 
 # 5. Webpack in Backend
 
