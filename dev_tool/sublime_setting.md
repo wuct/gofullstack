@@ -87,7 +87,8 @@ Sublime Text 3
         "no-use-before-define": 0,
         "no-empty": 0,
         "new-parens": 0,
-        "no-cond-assign": 0
+        "no-cond-assign": 0,
+        "new-cap": true
       }
     }
     ```
@@ -130,13 +131,14 @@ babel-eslint still have some bugs:
     ```
     {
       "preset": "airbnb",
+      "esprima" : "esprima-fb",
       "excludeFiles": ["node_modules/**", "build/**"]
     }
     ```
 
-2. `npm install -g jscs`
+2. `npm install -g jscs esprima-fb`
     Or, install them locally if your Sublime can't find them
-    `npm install --save-dev jscs`
+    `npm install --save-dev jscs esprima-fb`
 3. Install `SublimeLinter` via Package Control if you have not installed it, yet.
 4. Follow the 7th step in **esLint** to set SublimeLinter.
 5. Install `SublimeLinter-jscs`. Done!
