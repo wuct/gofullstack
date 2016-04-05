@@ -60,6 +60,9 @@ See `package.json` to know how we set this up, then try `npm run watch` in your 
 
 Both servers will reload lively when you edit a file.
 
+## Tips
+
+We can configure `webpack-dev-server` to proxy all requests other than assets to our node.js server, so now the entry point is just at port `8080`. See http://git.io/vUD1i
 
 # 5. Webpack in Backend
 
