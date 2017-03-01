@@ -7,8 +7,8 @@ __TL;DR__ 針對國家在地化用 ccTLDs；針對語言在地化 Subdomain with
 - ccTLDs
     - eg: example.de, example.fr
     - 優點
-        - Google 完全資源
-        - 網址本身就是個在地化
+        - Google 完全支援
+        - 網址本身就是個在地化
         - 使用者喜歡，且容易辨認
         - 可在 DNS 指定至離使用者距離近的 server
     - 缺點
@@ -19,8 +19,8 @@ __TL;DR__ 針對國家在地化用 ccTLDs；針對語言在地化 Subdomain with
 - Subdomain with gTLDs
     - eg: de.site.com, fr.site.com
     - 優點
-        - Google 完全資源
-        - 同時適用針對國家或針對語言做在地化
+        - Google 完全支援
+        - 同時適用針對國家或針對語言做在地化
         - 設定簡單
         - 可在 DNS 指定至離使用者距離近的 server
         - cookie 可共用
@@ -33,14 +33,14 @@ __TL;DR__ 針對國家在地化用 ccTLDs；針對語言在地化 Subdomain with
 - URL parameters
     - eg: site.com?loc=de, ?country=france, etc.
     - 缺點
-        - Google 不建議且不資源（Webmaster）
+        - Google 不建議且不支援（Webmaster）
         - 切割網站不容易
         - 使用者難辨認
 
 [Google gTLDs 列表](https://support.google.com/webmasters/answer/1347922?hl=en)
 
 ## 相關設定
-可用 html header 或 sitemap （擇一）告訴搜尋引擎我們資源的 i18n 網站
+可用 html header 或 sitemap （擇一）告訴搜尋引擎我們支援的 i18n 網站
 
 ### Html Header
 
